@@ -1,0 +1,4 @@
+#!/bin/bash
+IFS=":" read -ra PATH_ARRAY <<< "$PATH"
+DIR_COUNT=${#PATH_ARRAY[@]}
+echo "The PATH variable contains $DIR_COUNT directories."
