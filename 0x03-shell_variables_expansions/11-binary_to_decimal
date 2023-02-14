@@ -1,2 +1,2 @@
 #!/bin/bash
-binary=$BINARY decimal=$((2#$binary)) echo $decimal
+o $((2#$BINARY))
