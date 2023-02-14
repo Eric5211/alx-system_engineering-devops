@@ -1,2 +1,2 @@
 #!/bin/bash
-DIR_COUNT=${#PATH_ARRAY[@]}
+echo $PATH | tr ':' '\n' | wc -l
