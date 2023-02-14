@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "The PATH variable contains $DIR_COUNT directories."
+DIR_COUNT=${#PATH_ARRAY[@]}
